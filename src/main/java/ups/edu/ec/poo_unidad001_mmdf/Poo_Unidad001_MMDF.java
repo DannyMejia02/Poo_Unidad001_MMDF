@@ -93,7 +93,7 @@ public class Poo_Unidad001_MMDF {
         var producto1 = new Producto();
         producto1.descripcion="Grande";
   
-        producto1.precio="45";
+        producto1.precio="45$";
         
         producto1.codigo="564861";
   
@@ -104,7 +104,7 @@ public class Poo_Unidad001_MMDF {
         var producto2 = new Producto();
         producto2.descripcion="Mediano";
   
-        producto2.precio="25";
+        producto2.precio="25$";
         
         producto2.codigo="874785";
   
