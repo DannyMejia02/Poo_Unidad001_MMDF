@@ -33,7 +33,7 @@ public class Poo_Unidad001_MMDF {
         
         toyota.peso="1.800kg";
         
-        System.out.println("La marca del carro es: "+toyota.marca+"El motor del carro es: "+toyota.motor+" El año del carro es: "+toyota.año+" El peso del carro es: "+toyota.peso);
+        System.out.println("La marca del carro es: "+toyota.marca+ "El motor del carro es: "+toyota.motor+" El año del carro es: "+toyota.año+" El peso del carro es: "+toyota.peso);
                 
         var estudiante1 = new Estudiante();
         estudiante1.nombre="Juan Perez";
@@ -47,7 +47,7 @@ public class Poo_Unidad001_MMDF {
         System.out.println("El nombre del estudiantes es: "+estudiante1.nombre+" La carrera del estudiante es: "+estudiante1.carrera+" La calificacion del estudiante es: "+estudiante1.calificacion+" La altura del estudiante es: "+estudiante1.altura);
         
         var estudiante2 = new Estudiante();
-        estudiante2.nombre="Pepe peñas";
+        estudiante2.nombre="Pepe Peñas";
        
         estudiante2.carrera="Telecomunicaciones";
         
@@ -68,12 +68,23 @@ public class Poo_Unidad001_MMDF {
         
         System.out.println("El modelo de la computadora es: "+hp.modelo+" La grafica es: "+hp.grafica+" La memoria es: "+hp.memoria+" El espacio es: "+hp.espacio);
         
+        var asus = new Computadora();
+        asus.modelo="Predator";
+        
+        asus.grafica="Rtx 3090";
+        
+        asus.memoria="120GB";
+      
+        asus.espacio="2 Tera";
+        
+        System.out.println("El modelo de la computadora es: "+asus.modelo+" La grafica es: "+asus.grafica+" La memoria es: "+asus.memoria+" El espacio es: "+asus.espacio);
+        
         var moto1 = new Moto();
         moto1.color="Verde y Negro";
       
         moto1.modelo="Ninja";
      
-        moto1.precio="3.500";
+        moto1.precio="3.500$";
 
         moto1.motor="998cc";
         
@@ -84,7 +95,7 @@ public class Poo_Unidad001_MMDF {
       
         moto2.modelo="Ducati";
      
-        moto2.precio="4.500";
+        moto2.precio="4.500$";
 
         moto2.motor="1000cc";
         
